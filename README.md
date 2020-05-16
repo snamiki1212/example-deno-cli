@@ -24,7 +24,7 @@ deno run --allow-read watcher.ts
 
 ```zsh
 # Terminal1
-$ deno run --allow-read
+$ deno run --allow-net --allow-read api.ts
 
 # Terminal2
 $ curl -X POST http://localhost:8000/todos
