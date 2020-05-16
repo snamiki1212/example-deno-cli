@@ -7,7 +7,6 @@ REF: https://deno.land/manual/examples/unix_cat
 echo "hello world cat" > test.txt
 
 deno run --allow-read cat.ts test.txt
-# Compile file:///Users/namikishun/Develop/sandbox/example-deno/cat.ts
 # hello world cat
 ```
 
